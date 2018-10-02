@@ -3,6 +3,11 @@
 
 Ocean Node in Helsinki at 95.216.136.41.
 
+### Requirements
+- Docker
+- Docker Compose
+- Node 8 and npm for manual keeper contract functions (e.g. migrations)
+
 
 ### Steps for running on Kovan
 
