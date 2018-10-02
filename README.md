@@ -22,13 +22,13 @@ export KEEPER_NETWORK_NAME=kovan
 
 Install metamask in your browser. Brave's built in Metamask work's well.
 ```
-./start_ocean.sh
+sudo ./start_ocean.sh
 ```
 
 2. For the old 10-account system:
 ```
 git checkout origin/master
-docker-compose --project-name=ocean up
+sudo docker-compose --project-name=ocean up
 ```
 
 Wait a few minutes for the various services to start and connect.
