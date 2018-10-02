@@ -32,3 +32,14 @@ sudo docker-compose --project-name=ocean up
 ```
 
 Wait a few minutes for the various services to start and connect.
+
+Once services are running you should see:
+```
+keeper-contracts_1  | eth_getFilterLogs
+keeper-contracts_1  | eth_getFilterLogs
+keeper-contracts_1  | eth_getFilterLogs
+...
+```
+... interrupted occasionally by output from `tendermint_1`
+
+At this point, you can publish from the server at `0.0.0.0:3000`
