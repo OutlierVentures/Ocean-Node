@@ -43,3 +43,8 @@ keeper-contracts_1  | eth_getFilterLogs
 ... interrupted occasionally by output from `tendermint_1`
 
 At this point, you can publish from the server at `0.0.0.0:3000`
+
+
+To allow the process to continue after closing your connection, hit `CTRL` + `Z` and type `bg`.
+
+You can now close the window.
