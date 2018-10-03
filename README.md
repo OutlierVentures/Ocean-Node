@@ -56,7 +56,7 @@ You can now close the window.
 
 ### Server setup automation
 
-The shell script has been tested in Ubuntu 18.04 (and MacOS 10.14).
+The shell script uses calls APT functions. It has been tested in Ubuntu 18.04.
 
 SSH into the server. Updates will be handled by the script, so there's no need to upgrade anything.
 
