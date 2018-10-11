@@ -1,5 +1,4 @@
 # Ocean-Node
-#### In progress: update to new metamask account system
 
 Ocean Node in Helsinki. Interact at 95.216.136.41:3000.
 
