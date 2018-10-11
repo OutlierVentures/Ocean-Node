@@ -1,1 +1,12 @@
-.
+.cache
+.docker
+.ocean
+.ssh
+.bash_history
+.bash_logout
+.bashrc
+.cloud-locale-test.skip
+.gitconfig
+.profile
+.sudo_as_admin_successful
+
