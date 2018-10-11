@@ -1,7 +1,7 @@
 # Ocean-Node
 #### In progress: update to new metamask account system
 
-Ocean Node in Helsinki at 95.216.136.41.
+Ocean Node in Helsinki. Interact at 95.216.136.41:3000.
 
 ### Requirements
 - Docker
@@ -19,7 +19,6 @@ git clone https://github.com/oceanprotocol/docker-images.git
 Switch into repo and set environment variables:
 ```
 cd docker-images
-export OCEAN_VERSION=latest
 export KEEPER_NETWORK_NAME=kovan
 ```
 
@@ -27,7 +26,7 @@ export KEEPER_NETWORK_NAME=kovan
 
 Install metamask in your browser. Brave's built in Metamask work's well.
 ```
-sudo ./start_ocean.sh
+sudo ./start_ocean.sh --latest
 ```
 
 2. For the old 10-account system:
@@ -38,17 +37,7 @@ sudo docker-compose --project-name=ocean up
 
 Wait a few minutes for the various services to start and connect.
 
-Once services are running you should see:
-```
-keeper-contracts_1  | eth_getFilterLogs
-keeper-contracts_1  | eth_getFilterLogs
-keeper-contracts_1  | eth_getFilterLogs
-...
-```
-... interrupted occasionally by output from `tendermint_1`
-
-At this point, you can publish from the server at `0.0.0.0:3000`
-
+Once up, you can publish from the server at `0.0.0.0:3000` and interact remotely at `95.216.136.41:3000`.
 
 To allow the process to continue after closing your connection, hit `CTRL` + `Z` and type `bg`.
 
