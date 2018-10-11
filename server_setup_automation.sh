@@ -42,6 +42,8 @@ echo "Installing docker..."
 echo `curl -fsSL https://get.docker.com -o get-docker.sh &&
       sh get-docker.sh &&
       rm get-docker.sh`
+echo `curl -L "https://github.com/docker/compose/releases/download/1.2.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose &&
+      chmod +x /usr/local/bin/docker-compose`
 echo "Docker has been installed!"
 
 # Docker firewall fix
