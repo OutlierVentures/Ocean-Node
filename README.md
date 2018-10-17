@@ -41,29 +41,3 @@ Once up, you can publish from the server at `0.0.0.0:3000` and interact remotely
 To allow the process to continue after closing your connection, hit `CTRL` + `Z` and type `bg`.
 
 You can now close the window.
-
-### Server setup automation
-
-The shell script uses calls APT functions. It has been tested in Ubuntu 18.04.
-
-SSH into the server. Updates will be handled by the script, so there's no need to upgrade anything.
-
-The only part which will require human input is user creation (passwords), so just create these:
-```
-adduser theo
-adduser aron
-```
-
-Next, just SCP `server_setup_automation.sh` across or create a new file and paste the contents in e.g. using Vim or Nano.
-
-Add execute permissions:
-```
-chmod +x server_setup_automation.sh
-```
-
-Now just run:
-```
-./server_setup_automation.sh
-```
-
-Once the script is done, it will close your connection as the server reboots. Wait a minute for the server to come back up, then just `ssh` into your account.
