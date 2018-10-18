@@ -38,7 +38,7 @@ sudo docker-compose --project-name=ocean up
 
 Wait a few minutes for the various services to start and connect.
 
-Once up, you can publish from the server at `0.0.0.0:3000` and interact remotely at `95.216.136.41:3000`.
+Once up, you can publish from the server at `0.0.0.0:3000` and interact remotely with the Pleuston app at `http://[server IP]:3000`.
 
 To allow the process to continue after closing your connection, hit `CTRL` + `Z` and type `bg`.
 
