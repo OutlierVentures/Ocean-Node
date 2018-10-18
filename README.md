@@ -1,6 +1,8 @@
 # Ocean-Node
 
-Ocean Node in Helsinki. Interact at 95.216.136.41:3000.
+Instructions for setting up an Ocean Protocol node. Network status: testnet on Ethereum Kovan.
+
+A node might currently be running at [http://ocean1.nodes.outlierventures.io:3000](http://ocean1.nodes.outlierventures.io:3000)
 
 ### Requirements
 - Docker
