@@ -27,7 +27,7 @@ export KEEPER_NETWORK_NAME=kovan
 
 Install metamask in your browser. Brave's built in Metamask work's well.
 ```
-sudo ./start_ocean.sh --latest
+sudo ./start_ocean.sh
 ```
 
 2. For the old 10-account system:
