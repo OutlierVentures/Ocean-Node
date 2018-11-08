@@ -2,6 +2,8 @@
 
 Instructions for setting up an Ocean Protocol node. Network status: testnet on Ethereum Kovan.
 
+Develop is running at http://95.216.136.41:3000.
+
 A node might currently be running at [http://ocean1.nodes.outlierventures.io:3000](http://ocean1.nodes.outlierventures.io:3000)
 
 ### Requirements
